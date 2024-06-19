@@ -40,7 +40,7 @@ bevy_pbr = { version = "0.14.0-rc.2", optional = true }
 bevy_render = { version = "0.14.0-rc.2" }
 
 egui = "0.27"
-bevy_egui = "0.27"
+bevy_egui = { git = "https://github.com/Friz64/bevy_egui", branch = "bevy-0.14" }
 
 bytemuck = "1.16.0"
 image = { version = "0.24", default-features = false }
